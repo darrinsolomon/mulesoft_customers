@@ -2,4 +2,8 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="broadridge_sapi-phaseivFlow" doc:id="0dc5bed4-76ff-4d1b-874d-bef10a6920b9" >
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="565cb7d4-de3f-4d27-96b6-9d14e87acc1c" />
+	</flow>
+</mule>
